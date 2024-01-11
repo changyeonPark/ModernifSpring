@@ -1,0 +1,326 @@
+.detail-content {
+    width: 90%;
+    margin: 200px auto;
+}
+
+.detail-content > div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* 왼쪽 */
+.detail-header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+}
+
+.detail-header-img {
+    margin: 16px auto;
+    width: 400px;
+    height: 500px;
+}
+
+.detail-header-content {
+    width: 60%;
+}
+
+.header-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*  오른쪽 */
+.product-info {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    margin-bottom: 30px;
+}
+
+.prod-header > ul {
+    list-style: none;
+    text-align: start;
+}
+
+.prodName {
+    margin-bottom: 10px;
+}
+
+.prodPrice {
+    font-weight: bold;
+}
+
+.prodSizeGuide > ul {
+    list-style: none;
+}
+
+.sizeGuideBtn {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.chart {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.chart th:nth-child(1), td:nth-child(1) {
+    width: 15%;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 8px 0;
+}
+
+.chart th:nth-child(2), td:nth-child(2) {
+    width: calc(85% / 3);
+    border-bottom: 1px solid #dfdfdf;
+    padding: 8px 0;
+}
+
+.chart th:nth-child(3), td:nth-child(3) {
+    width: calc(85% / 3);
+    border-bottom: 1px solid #dfdfdf;
+    padding: 8px 0;
+}
+
+.chart th:nth-child(4), td:nth-child(4) {
+    width: calc(85% / 3);
+    border-bottom: 1px solid #dfdfdf;
+    padding: 8px 0;
+}
+
+.choice-menu {
+    padding-left: 40px;
+    display: flex;
+    margin: 20px 0;
+}
+
+.choice-menu > div:nth-child(1) {
+    width: 20%;
+    text-align: start;
+}
+
+.choice-menu > div:nth-child(2) {
+    width: 80%;
+}
+
+.choice-menu select {
+    width: 100%;
+    height: 26px;
+}
+
+
+
+.totalPrice {
+    margin: 30px 0 30px 40px;
+    text-align: start;
+}
+
+.prod-action {
+    margin: 30px 0 30px 40px;
+    display: flex;
+    height: 50px;
+}
+
+.prod-action > button:hover {
+    cursor: pointer;
+}
+
+.prod-action button:nth-child(1) {
+    width: 50%;
+    height: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.prod-action button:nth-child(2) {
+    width: 50%;
+    height: 100%;
+    border: none;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.detail-tag {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 100%;
+    height: 42px;
+}
+
+.detail-tag > a {
+    width: 50%;
+    height: 100%;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #999;
+    text-align: center;
+    font-size: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-tag > a:nth-child(1) {
+    border-right: none
+}
+
+.detail-tag > a:hover {
+    color: black;
+}
+
+.detail-body-img {
+    text-align: center;
+}
+
+.delivery-comment {
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+.delivery-comment ul {
+    padding: 0;
+    margin: 0;
+}
+
+.delivery-comment li {
+    list-style: none;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    color: #777;
+    font-size: 13px;
+}
+
+.inner p {
+    color: black;
+    line-height: 1.5;
+}
+
+.topBtn {
+    position: fixed;
+    right: 50px;
+    bottom: 60px;
+    width: 50px;
+    text-align: center;
+    background: #0077b5;
+    border-radius: 25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.topBtn > a {
+    color: white;
+    text-decoration: none;
+}
+
+.user-select-list {
+    margin: 50px 0px 50px 40px;
+    border-top: 1px solid #dfdfdf;
+}
+
+.selectList {
+    width: 100%;
+    height: 70px;
+
+    display: none;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.selectList input {
+    width: 40px;
+}
+
+.selectList p {
+    margin: 0px;
+    font-size: 13px;
+}
+
+.selectList strong {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.selectList > div {
+    text-align: center;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.selectList > div:nth-child(1){
+    width: 50%;
+    text-align: start;
+}
+
+.selectList > div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 25%;
+    text-align: start;
+}
+
+.selectList > div:nth-child(3){
+    width: 25%;
+    align-items: end;
+}
+
+.count-div input {
+    height: 20px;
+}
+
+.countBtn {
+    height: 26px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.countBtn > a {
+    height: 50%;
+    display: flex;
+}
+
+#delSelectList {
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+#delSelectList:hover{
+    cursor: pointer;
+}
+
+#delSelectList > img {
+    height: 60%;
+}
+
+.countBtn:hover {
+    cursor: pointer;
+}
+
+
+.countBtn > a > img{
+    width: 100%;
+    height: 100%;
+}
